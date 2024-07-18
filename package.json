@@ -1,5 +1,5 @@
 {
-  "name": "@digitalbazaar/credentials-v2-context",
+  "name": "@digitalcredentials/credentials-v2-context",
   "version": "0.0.1-beta.0",
   "description": "A Verifiable Credentials Data Model 2.0 context library for JavaScript.",
   "type": "module",
@@ -17,17 +17,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalbazaar/credentials-v2-context"
+    "url": "https://github.com/digitalcredentials/credentials-v2-context"
   },
   "bugs": {
-    "url": "https://github.com/digitalbazaar/credentials-v2-context/issues"
+    "url": "https://github.com/digitalcredentials/credentials-v2-context/issues"
   },
   "author": {
-    "name": "Digital Bazaar, Inc.",
-    "email": "support@digitalbazaar.com",
-    "url": "https://digitalbazaar.com/"
+    "name": "Digital Credentials Consortium"
   },
-  "homepage": "https://github.com/digitalbazaar/credentials-v2-context#readme",
+  "homepage": "https://github.com/digitalcredentials/credentials-v2-context#readme",
   "license": "BSD-3-Clause",
   "keywords": [
     "JSON-LD context",

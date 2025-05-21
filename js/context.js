@@ -7,10 +7,11 @@
 /* eslint-disable max-len */
 
 export default
+/* context-url: https://www.w3.org/ns/credentials/v2 */
+/* context-begin */
 {
   "@context": {
     "@protected": true,
-    "@vocab": "https://www.w3.org/ns/credentials/issuer-dependent#",
 
     "id": "@id",
     "type": "@type",
@@ -164,28 +165,8 @@ export default
           "@id": "https://www.w3.org/ns/credentials/status#encodedList",
           "@type": "https://w3id.org/security#multibase"
         },
-        "statusMessage": {
-          "@id": "https://www.w3.org/ns/credentials/status#statusMessage",
-          "@context": {
-            "@protected": true,
-
-            "id": "@id",
-            "type": "@type",
-
-            "message": "https://www.w3.org/ns/credentials/status#message",
-            "status": "https://www.w3.org/ns/credentials/status#status"
-          }
-        },
         "statusPurpose":
           "https://www.w3.org/ns/credentials/status#statusPurpose",
-        "statusReference": {
-          "@id": "https://www.w3.org/ns/credentials/status#statusReference",
-          "@type": "@id"
-        },
-        "statusSize": {
-          "@id": "https://www.w3.org/ns/credentials/status#statusSize",
-          "@type": "https://www.w3.org/2001/XMLSchema#positiveInteger"
-        },
         "ttl": "https://www.w3.org/ns/credentials/status#ttl"
       }
     },
@@ -207,7 +188,27 @@ export default
         "statusListIndex":
           "https://www.w3.org/ns/credentials/status#statusListIndex",
         "statusPurpose":
-          "https://www.w3.org/ns/credentials/status#statusPurpose"
+          "https://www.w3.org/ns/credentials/status#statusPurpose",
+        "statusMessage": {
+          "@id": "https://www.w3.org/ns/credentials/status#statusMessage",
+          "@context": {
+            "@protected": true,
+
+            "id": "@id",
+            "type": "@type",
+
+            "message": "https://www.w3.org/ns/credentials/status#message",
+            "status": "https://www.w3.org/ns/credentials/status#status"
+          }
+        },
+        "statusReference": {
+          "@id": "https://www.w3.org/ns/credentials/status#statusReference",
+          "@type": "@id"
+        },
+        "statusSize": {
+          "@id": "https://www.w3.org/ns/credentials/status#statusSize",
+          "@type": "https://www.w3.org/2001/XMLSchema#integer"
+        }
       }
     },
 
@@ -347,4 +348,5 @@ export default
       "@type": "@id"
     }
   }
-};
+}
+/* context-end */;

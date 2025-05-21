@@ -1,6 +1,6 @@
 {
   "name": "@digitalcredentials/credentials-v2-context",
-  "version": "0.0.1-beta.0",
+  "version": "1.0.0",
   "description": "A Verifiable Credentials Data Model 2.0 context library for JavaScript.",
   "type": "module",
   "main": "./js/index.js",
